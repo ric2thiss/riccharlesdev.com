@@ -16,3 +16,77 @@
     --desc: 14px;
     --small:12px;
 }
+
+/* Header */
+/* Navigation Menu */
+.container {
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    align-items: center;
+}
+header{
+    padding-top: 1rem;
+}
+nav{
+    display: flex;
+}
+/* This is the background */
+ul{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+ul div li{
+    list-style-type: none;
+    padding: .5rem;
+}
+ul div li a{
+    text-decoration: none;
+}
+/* Ul content */
+ul div{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+/* toggle for menu in mobile */
+#toggle{
+    font-size: 1.5rem;
+}
+/* Exit of the modal */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* ------------------------ */
+
+/* Header Style */
+.header_nav{
+    justify-content: space-between;
+}
+/* Logo */
+.logo{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+
